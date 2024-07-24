@@ -35,6 +35,6 @@ Step 3.
 Replace the BottomSheet we use from react-spring-bottom-sheet with [this more lightweight alternative](https://www.npmjs.com/package/bottom-sheet-dialog)
 
 Step 4.
-Push your changes to your private repo, create a PR explaining what you've done and invite @tonypls and @VIKTORVAV99 as reviewers and we'll get back to you when we've reviewed.
+Push your changes to your private repo, create a PR explaining the changes, try explain reasons why this change is good, is there anything measurably different? Then invite @tonypls and @VIKTORVAV99 as reviewers and we'll get back to you when we've reviewed.
 
 Congrats 🎉
