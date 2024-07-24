@@ -10,7 +10,11 @@ How to approach this task:
 Time required - 90 minutes maximum (your time and ours is valuable) let's keep it as short as possible, submitted unfinished work or asking for pointers is fine!
 
 Step 1.
-Create a new repo from this template and make it private ![alt text](image.png)
+Create a new repo from this template and make it private
+
+👇
+
+![alt text](image.png)
 
 Step 2.
 Clone it locally and get the project up and running.
