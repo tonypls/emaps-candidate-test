@@ -14,7 +14,7 @@ Create a new repo from this template and make it private
 
 👇
 
-![alt text](image.png)
+<img src="image.png" width="150" >
 
 Step 2.
 Clone it locally and get the project up and running.
