@@ -1,0 +1,11 @@
+capacity:
+  coal: 0
+  gas: 0
+  hydro: 0
+  nuclear: 0
+  oil: 40.05
+contributors:
+  - gopikrishna1793
+timezone: Asia/Kolkata
+region: Asia
+country: IN

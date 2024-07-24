@@ -1,0 +1,11 @@
+VERSION 0.7
+FROM alpine:latest
+WORKDIR /contrib/config
+
+
+src-files:
+  COPY . .
+  SAVE ARTIFACT .
+
+test:
+  RUN echo "tests should live here"

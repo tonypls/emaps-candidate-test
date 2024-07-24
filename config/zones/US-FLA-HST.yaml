@@ -1,0 +1,95 @@
+bounding_box:
+  - - -81.3738299999999
+    - 24.6374500000001
+  - - -79.61802
+    - 26.47902
+capacity:
+  battery storage:
+    - datetime: '2023-10-01'
+      source: EIA.gov
+      value: 0.0
+  biomass:
+    - datetime: '2023-10-01'
+      source: EIA.gov
+      value: 0.0
+  coal:
+    - datetime: '2023-10-01'
+      source: EIA.gov
+      value: 0.0
+  gas:
+    - datetime: '2023-10-01'
+      source: EIA.gov
+      value: 35.6
+    - datetime: '2023-12-01'
+      source: EIA.gov
+      value: 33.6
+  geothermal:
+    - datetime: '2023-10-01'
+      source: EIA.gov
+      value: 0.0
+  hydro:
+    - datetime: '2023-10-01'
+      source: EIA.gov
+      value: 0.0
+  hydro storage:
+    - datetime: '2023-10-01'
+      source: EIA.gov
+      value: 0.0
+  nuclear:
+    - datetime: '2023-10-01'
+      source: EIA.gov
+      value: 0.0
+  oil:
+    - datetime: '2023-10-01'
+      source: EIA.gov
+      value: 0.0
+    - datetime: '2023-12-01'
+      source: EIA.gov
+      value: 2.0
+  solar:
+    - datetime: '2023-10-01'
+      source: EIA.gov
+      value: 0.0
+  unknown:
+    - datetime: '2023-10-01'
+      source: EIA.gov
+      value: 0.0
+  wind:
+    - datetime: '2023-10-01'
+      source: EIA.gov
+      value: 0.0
+comment: City Of Homestead
+contributors:
+  - systemcatch
+  - robertahunt
+  - KabelWlan
+country: US
+delays:
+  consumption: 30
+  consumptionForecast: 30
+  production: 35
+emissionFactors:
+  direct: {}
+  lifecycle:
+    coal:
+      datetime: '2014-01-01'
+      source: IPCC 2014
+      value: 820.0
+    gas:
+      datetime: '2014-01-01'
+      source: IPCC 2014
+      value: 490.0
+    oil:
+      datetime: '2014-01-01'
+      source: IPCC 2014; EIA 2020/BEIS 2021
+      value: 650.0
+parsers:
+  consumption: EIA.fetch_consumption
+  consumptionForecast: EIA.fetch_consumption_forecast
+  production: EIA.fetch_production_mix
+  productionCapacity: EIA.fetch_production_capacity
+region: Americas
+sources:
+  IPCC 2014:
+    link: https://www.ipcc.ch/site/assets/uploads/2018/02/ipcc_wg3_ar5_annex-iii.pdf#page=7
+timezone: US/Eastern
