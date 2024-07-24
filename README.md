@@ -32,7 +32,7 @@ visit the [dev server](http://localhost:5173/map?remote=true)
 The remote=true query param should get you some data for the map, but it will still probably get errors if you click on a zone (bonus points if you can find the token that allows this but don't waste time on this just now).
 
 Step 3.
-Replace the BottomSheet we use from react-spring-bottom-sheet with (this more lightweight alternative)[https://www.npmjs.com/package/bottom-sheet-dialog]
+Replace the BottomSheet we use from react-spring-bottom-sheet with [this more lightweight alternative](https://www.npmjs.com/package/bottom-sheet-dialog)
 
 Step 4.
 Push your changes to your private repo, create a PR explaining what you've done and invite @tonypls and @VIKTORVAV99 as reviewers and we'll get back to you when we've reviewed.
